@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697955919706",
+    "project_id": "pruduct-management-app",
+    "storage_bucket": "pruduct-management-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697955919706:android:189debf77bdd14b1d93563",
+        "android_client_info": {
+          "package_name": "com.example.pruduct_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1X4qKRZS-0yKiMyilv7mio_n-l__95hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
