@@ -1,0 +1,10 @@
+{
+  "response": {
+    "status": true,
+    "data": {
+      "authResponse": {
+        "otp": 1234
+      }
+    }
+  }
+}
