@@ -9,6 +9,7 @@ import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:pruduct_management_app/local_json/view_model/data_view.dart';
 import 'package:pruduct_management_app/model/hive_product_model.dart';
+import 'package:pruduct_management_app/view/customPaint.dart';
 import 'package:pruduct_management_app/view/login_screen.dart';
 import 'package:pruduct_management_app/view/product_screen.dart';
 import 'package:pruduct_management_app/view_model/services/auth_services.dart';
@@ -65,6 +66,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: DataView());//user != null ? HomeScreen() : LoginScreen());
+        home: LoginScreen());//user != null ? HomeScreen() : LoginScreen());
   }
 }
